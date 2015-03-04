@@ -1,0 +1,23 @@
+{
+  "name": "CoffeeDemo",
+  "version": "1.0.0",
+  "description": "Some code to go together with my http://www.marcusoft.net/2015/03/node-with-coffeescript---not-a-piece-of-cake.html post",
+  "author": "@marcusoftnet",
+  "license": "MIT",
+  "repository": "https://github.com/marcusoftnet/FirstCoffeeDemo",
+  "bugs": "https://github.com/marcusoftnet/FirstCoffeeDemo/issues",
+  "main": "/dist/index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "(coffee --compile --output dist --watch src &);./node_modules/nodemon/bin/nodemon.js ./dist/index.js"
+  },
+  "author": "Marcus Hammarberg <marcusoft.net@gmail.com> (http://www.marcusoft.net)",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^5.0.1"
+  },
+  "dependencies": {
+    "nodemon": "^1.3.7"
+  }
+}
